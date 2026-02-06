@@ -1,7 +1,7 @@
 const express = require("express");
 const ConnectDB = require("./Config/ConnectDB");
-const userRouter = require("./router/User");
-const PostRouter = require("./router/Post");
+const userRouter = require("./Router/User");
+const PostRouter = require("./Router/Post");
 
 const cors = require("cors");
 
