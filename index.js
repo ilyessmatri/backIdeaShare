@@ -9,7 +9,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin:
+      "https://6985c2e8272b43341db94cf5--cheery-malasada-c02510.netlify.app",
     credentials: true,
   })
 );
